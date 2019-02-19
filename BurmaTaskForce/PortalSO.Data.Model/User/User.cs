@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using Btf.Data.Model.Base;
-using Btf.Data.Model.Project;
 
 namespace Btf.Data.Model.User
 {
@@ -15,8 +14,6 @@ namespace Btf.Data.Model.User
         public User()
         {
             UserAccess = new List<Model.User.UserAccess>();
-            ProjectTeams = new List<ProjectTeam>();
-            ProjectActivities = new List<ProjectActivity>();
         }
         public string UserGUID { get; set; }
         public string Password { get; set; }
@@ -36,7 +33,5 @@ namespace Btf.Data.Model.User
         public string ZipCode { get; set; }
 
         public List<UserAccess> UserAccess { get; set; }
-        public List<ProjectTeam> ProjectTeams { get; set; }
-        public List<ProjectActivity> ProjectActivities { get; set; }
     }
 }

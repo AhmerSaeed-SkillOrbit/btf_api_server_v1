@@ -21,7 +21,6 @@ using Btf.Utilities.UserSession;
 using Swashbuckle.AspNetCore.Swagger;
 using Btf.Web.Api.Authorization;
 using Btf.Web.Api.LogRequestMiddleware;
-using Btf.Services.ProjectService;
 
 namespace Btf.Web.Api
 {
