@@ -1,12 +1,15 @@
-node('docker') {
- 
-    stage 'Checkout'
-        checkout scm
-    stage 'Build & UnitTest'
-        sh "docker build -t BurmaTaskForce:B${BUILD_NUMBER} -f Dockerfile ."
-        sh "docker build -t BurmaTaskForce:test-B${BUILD_NUMBER} -f Dockerfile.Integration ."
-  
-    stage 'Integration Test'
-        sh "docker-compose -f docker-compose.integration.yml up --force-recreate --abort-on-container-exit"
-        sh "docker-compose -f docker-compose.integration.yml down -v"
+pipeline  {
+    agent { label 'ubuntu' }
+    stages {
+        stage('Build & UnitTest') {
+            steps {
+                sh "docker build -t BurmaTaskForce ."
+            }
+        }
+        stage('Integration Test') {
+            steps {
+                sh "docker run -t BurmaTaskForce"
+            }
+        }
+    }  
 }
