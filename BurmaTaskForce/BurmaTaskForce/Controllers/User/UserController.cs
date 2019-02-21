@@ -14,11 +14,22 @@ using Btf.Data.Model.User;
 namespace Btf.Web.Api.Controllers
 {
     [Produces("application/json")]
-    [Authorize]
+    
     public class UserController : BaseController
     {
         public UserController(IUserService userService) : base(userService)
         {
+        }
+
+
+        #region User & User Access
+
+        [HttpGet]
+        [Route("api/user/test")]
+        public async Task<IActionResult> GetTest()
+        {
+            return Ok("This is a test api");
+
         }
 
         #region User Registration
@@ -51,8 +62,7 @@ namespace Btf.Web.Api.Controllers
         }
 
         #endregion
-
-        #region User & User Access
+         
 
         [HttpGet]
         [Route("api/user/info")]
