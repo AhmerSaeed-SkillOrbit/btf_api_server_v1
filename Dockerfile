@@ -2,7 +2,7 @@ FROM microsoft/dotnet:2.2-sdk
 WORKDIR /app
 
 # copy csproj and restore as distinct layers
-COPY *.csproj ./
+COPY Btf.Web.Api.csproj ./
 RUN dotnet restore
 
 # copy and build everything else
