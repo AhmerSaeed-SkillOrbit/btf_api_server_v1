@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PortalSO.Data\Btf.Data.csproj" />
+    <ProjectReference Include="..\BurmaTaskForce.Data\Btf.Data.csproj" />
   </ItemGroup>
 
 </Project>
