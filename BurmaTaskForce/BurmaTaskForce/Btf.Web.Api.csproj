@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PortalSO.Services\Btf.Services.csproj" />
+    <ProjectReference Include="..\BurmaTaskForce.Services\Btf.Services.csproj" />
   </ItemGroup>
 
 </Project>
