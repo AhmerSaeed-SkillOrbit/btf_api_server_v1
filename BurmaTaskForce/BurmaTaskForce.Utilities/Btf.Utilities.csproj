@@ -12,6 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PortalSO.Data.Model\Btf.Data.Model.csproj" />
+    <ProjectReference Include="..\BurmaTaskForce.Data.Model\Btf.Data.Model.csproj" />
   </ItemGroup>
 </Project>
