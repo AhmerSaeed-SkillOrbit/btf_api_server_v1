@@ -3,12 +3,12 @@ pipeline  {
     stages {
         stage('Build & UnitTest') {
             steps {
-                sh "docker build -t BurmaTaskForce ."
+                sh "docker build -t burmataskforce ."
             }
         }
         stage('Integration Test') {
             steps {
-                sh "docker run -t BurmaTaskForce"
+                sh "docker run -t burmataskforce"
             }
         }
     }  
