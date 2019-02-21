@@ -8,5 +8,5 @@ RUN dotnet restore
 # copy and build everything else
 COPY . ./
 RUN dotnet publish -c Release -o out
-ENTRYPOINT ["dotnet", "bin/Debug/netcoreapp2.2/firstdocker.dll"]
+ENTRYPOINT ["dotnet", "bin/Debug/netcoreapp2.2/burmataskforce1.dll"]
 
