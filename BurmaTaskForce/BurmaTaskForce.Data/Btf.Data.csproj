@@ -9,9 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PortalSO.Data.Contracts\Btf.Data.Contracts.csproj" />
-    <ProjectReference Include="..\PortalSO.Data.Model\Btf.Data.Model.csproj" />
-    <ProjectReference Include="..\PortalSO.Utilities\Btf.Utilities.csproj" />
+    <ProjectReference Include="..\BurmaTaskForce.Data.Contracts\Btf.Data.Contracts.csproj" />
+    <ProjectReference Include="..\BurmaTaskForce.Data.Model\Btf.Data.Model.csproj" />
+    <ProjectReference Include="..\BurmaTaskForce.Utilities\Btf.Utilities.csproj" />
   </ItemGroup>
 
 </Project>
