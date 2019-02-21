@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Btf.Web.Api", "BurmaTaskForce\Btf.Web.Api.csproj", "{D55BE7A4-AB8A-4881-9173-6428900BA364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Btf.Web.Api", "BurmaTaskForce\Btf.Web.Api.csproj", "{D55BE7A4-AB8A-4881-9173-6428900BA364}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Btf.Data", "PortalSO.Data\Btf.Data.csproj", "{534D48D9-0A61-43BE-AB3D-170EB456028C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Btf.Data.Contracts", "PortalSO.Data.Contracts\Btf.Data.Contracts.csproj", "{C471780D-6585-414E-9F52-9F4F9C731923}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{149CC391-E01D-48DA-BC1F-C3D8E4BA0054}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Btf.Data.Model", "PortalSO.Data.Model\Btf.Data.Model.csproj", "{4AFDBDE3-AB63-4D5F-BB84-73FAAEA2DF50}"
 EndProject
