@@ -12,6 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BurmaTaskForce.Data.Model\Btf.Data.Model.csproj" />
+    <ProjectReference Include="..\Btf.Data.Model\Btf.Data.Model.csproj" />
   </ItemGroup>
 </Project>
