@@ -3,7 +3,7 @@ WORKDIR /app
 
 # copy csproj and restore as distinct layers
 
-COPY /BurmaTaskForce/Btf.Web.Api.csproj ./
+COPY /BurmaTaskForce/Btf.Web.Api/Btf.Web.Api.csproj ./
 RUN dotnet restore
 
 # copy and build everything else
